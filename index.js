@@ -1,4 +1,4 @@
-require('dotenv-vault-core').config()
+require('dotenv').config()
 const express = require('express')
 const cors = require('cors')
 const { todoRouter } = require('./routes/todo.js')
